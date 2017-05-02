@@ -1,10 +1,10 @@
 #include "i2c.h"
 #include "msp430g2553.h"
 
-#define I2CSEL P1SEL
-#define I2CSEL2 P1SEL2
-#define I2CSDA BIT6
-#define I2CSCL BIT7
+#define I2CSEL   P1SEL
+#define I2CSEL2  P1SEL2
+#define I2CSDA   BIT6
+#define I2CSCL   BIT7
 
 void I2C_init(uint8_t slaveAddress){
     // Port Configuration
