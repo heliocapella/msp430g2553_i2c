@@ -1,3 +1,13 @@
+/*
+ * i2c.h
+ *
+ *  Created on: 28 de abr de 2017
+ *      Author: helio.capella
+ *
+ *      Based on msp430g2xx3_uscib0_i2c_12.c by D. Dang
+ */
+
+
 #include "i2c.h"
 #include "msp430g2553.h"
 
